@@ -1,0 +1,47 @@
+body { font-size: 14px; }
+/* <class> */
+.font_size-1 { font-size: 1rem !important; }
+.font_size-1_25 { font-size: 1.25rem !important; }
+.font_size-1_50 { font-size: 1.5rem !important; }
+.font_size-2 { font-size: 2rem !important; }
+.font_size-3 { font-size: 3rem !important; }
+.font_size-4 { font-size: 4rem !important; }
+.font_size-5 { font-size: 5rem !important; }
+
+.input-login { padding: .2em 0; border: none; outline: none; }
+
+.bg-img { background: url(../img/bg-neumaticos.jpg) no-repeat bottom right; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.bg-black { background-color: #000; }
+
+.div-nav { left: 0; top: 0; }
+.div-section { right: 0; top:0; }
+
+.bottom-data { bottom: 0; left: 0; }
+
+.menu a { border-left: 5px solid; border-color: #000; color: #000; }
+.menu a:hover { background-color: #f8f9fa; }
+
+.btn-close { right: 0; top: -34px; z-index: 1; line-height: initial; font-size: 1.25em; cursor: pointer; }
+.cursor-pointer { cursor: pointer; }
+
+.active { background-color: #C8102E !important; color: #fff !important; }
+.active:before, .active:after { border-bottom: 20px solid transparent; border-top: 20px solid transparent; top:-1px; content: " "; position: absolute; display: block; width: 0; height: 0; }
+.active:after { border-right: 16px solid #f8f9fa; right: -1px; z-index: 2; }
+.active:before { border-right: 16px solid #dee2e6; right: 0px; z-index: 1; }
+
+.messagebox_overlay { z-index: 100; }
+.has-error,
+.has-error + .select2-container--default .select2-selection--single { border-color: #cc0000 !important; background-color: #f3d8d8 !important; }
+
+.select2-container { flex-grow: 1 !important; width: inherit !important; }
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple { display: flex !important; align-items: center !important; min-height: 38px !important; position: relative; flex-grow: 1 !important; border-radius: 0; }
+.select2-container--default .select2-selection--single .select2-selection__arrow { top: calc(50% - 13px); }
+.select2-container--default .select2-selection--single { border-color: #ced4da; }
+.select2-container--default .select2-selection--single .select2-selection__clear { position: absolute; right: 20px; top:calc(50% - 14px); }
+/* </class> */
+/* */
+a,a:active { color: #C8102E; text-decoration: none; }
+a:hover { color: #000; text-decoration: none; }
+
+td { vertical-align: middle !important; }

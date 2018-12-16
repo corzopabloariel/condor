@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <CSS> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/lobibox.css">
+    <link rel="stylesheet" href="assets/css/messagebox.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- </CSS> -->
+    <!-- <JS> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="assets/js/lobibox.js"></script>
+    <script src="assets/js/messagebox.js"></script>
+    <script src="assets/js/md5.js"></script>
+
+    <script src="assets/js/declaration.js"></script>
+    <script src="assets/js/toolbox.js"></script>
+    <script src="assets/js/pyrus.js"></script>
+
+    <script src="assets/js/userDATOS.js"></script>
+    <script src="assets/js/renderer_login.js"></script>
+    <!-- </JS> -->
+    <script type="text/javascript">
+
+    </script>
+    <title>..:: CONDOR GROUP S.A. - Seguimiento de Vehículos ::..</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row w-100 h-100 position-absolute">
+        <div class="col-8 d-flex bg-img">
+          <div class="w-100 pl-5 text-white">
+            <h1 class="font_size-5 font-weight-light mt-4">Bienvenido</h1>
+            <h2 class="m-0 font_size-4 text-uppercase font-weight-light">condor group s.a.</h2>
+          </div>
+        </div>
+        <div class="col-4 d-flex flex-column align-items-center border-left bg-light shadow-sm">
+          <div class="py-5 pl-3 font_size-1_50 font-weight-light w-100">
+            <h3 class="font-weight-light mb-5 pb-5">Ingresá tus datos para operar</h3>
+            <form class="" name="form" novalidate onsubmit="event.preventDefault(); userDATOS.submit(this);" method="post">
+              <div class="pr-5 pt-5 mt-5">
+                <label class="m-0 d-block" for="frm_user">Usuario</label>
+                <input required="true" class="input-login d-block w-100 border-bottom bg-light" type="text" id="frm_user" name="frm_user">
+              </div>
+              <div class="pr-5 pt-3">
+                <label class="m-0 d-block" for="frm_pass">Clave</label>
+                <input required="true" class="input-login d-block w-100 border-bottom bg-light" type="password" id="frm_pass" name="frm_pass">
+              </div>
+              <div class="pr-5 pt-3 text-center">
+                <button type="submit" class="text-uppercase btn d-inline-block rounded-0" name="button">entrar</button>
+              </div>
+            </form>
+          </div>
+          <p class="m-0 text-center pl-3 pr-5"><a href="#">¿Olvidaste tu clave?</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

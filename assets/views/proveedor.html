@@ -1,0 +1,21 @@
+<header>
+  <div class="container-fluid py-2">
+    <button type="button" id="add" class="btn btn-outline-primary rounded-0 text-uppercase">
+      <i class="fas fa-plus"></i> proveedor
+    </button>
+  </div>
+</header>
+
+<section>
+  <div class="container-fluid">
+    <div class="d-none position-relative" style="z-index:40" id="elemento">
+      <i onclick='userDATOS.close()' class="fas fa-times position-absolute border border-bottom-0 bg-white p-2 btn-close"></i>
+      <div class="card rounded-0 w-100 shadow-sm position-absolute"></div>
+    </div>
+    <div class="card rounded-0">
+      <div class="card-body">
+        <table class="table table-striped w-100" id="tabla"></table>
+      </div>
+    </div>
+  </div>
+</section>
